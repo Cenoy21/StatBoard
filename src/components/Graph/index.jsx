@@ -27,8 +27,8 @@ const Graph = () => {
       <LineChart
         xAxis={[{ data: xData, scaleType: "point", labelRotate: -45 }]}
         series={[{ data, connectNulls: true }]}
-        height={300}
-        width={400}
+        height={350}
+        width={700}
       />
     </>
   );
