@@ -22,6 +22,11 @@ const Pie = () => {
   return (
     <>
       <PieChart
+        colors={[
+          "rgb(85, 139, 85)",
+          "rgb(150, 216, 150)",
+          "rgb(216, 246, 216)",
+        ]}
         series={[
           {
             data: pieData.map((item, index) => ({
