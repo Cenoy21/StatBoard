@@ -28,7 +28,15 @@ const Table = () => {
 
   return (
     <>
-      <div style={{ height: 370, width: "700px" }}>
+      <div
+        style={{
+          height: 370,
+          width: "820px",
+          backgroundColor: "white",
+          borderRadius: "10px",
+          boxShadow: "0px 0px 5px 1px black",
+        }}
+      >
         <DataGrid rows={tableData} columns={columns} pageSize={5} />
       </div>
     </>
